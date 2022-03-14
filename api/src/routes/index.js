@@ -5,14 +5,13 @@ const router = Router();
 const {
   getCountries,
   countryById,
-
 } = require("../controllers/countries");
-
+const { addActivity } = require("../controllers/activities");
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 router.get("/countries", getCountries);
 router.get("/countries/:id", countryById);
-
+router.post("/activity", addActivity);
 
 module.exports = router;
