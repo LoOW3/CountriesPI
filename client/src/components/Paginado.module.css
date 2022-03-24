@@ -1,0 +1,27 @@
+.numbers{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 32, 130);
+    padding-top: 10px ;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+.pag{
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin: 2px;
+    border-bottom: 1px solid rgb(43, 77, 149);
+    width: 40px;
+    height: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+.pag:hover{
+    background-color: rgb(43, 77, 149);
+}

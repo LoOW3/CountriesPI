@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('./img/fondoHome3.png');
+    margin-top: 90px;
+    height: 1800px;
+}
+.container div{
+    margin: 30px;
+}

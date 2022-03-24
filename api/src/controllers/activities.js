@@ -34,7 +34,15 @@ const addActivity = async function (req, res, next) {
     console.log(error);
   }
 };
+const getActivities = async function (req, res) {
+  try {
+    const activities = await Activity.findAll({ include: Country });
+    res.status(200).json(activities);
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 
 
-module.exports = { addActivity };
+module.exports = { addActivity, getActivities };

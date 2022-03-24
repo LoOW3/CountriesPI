@@ -6,12 +6,13 @@ const {
   getCountries,
   countryById,
 } = require("../controllers/countries");
-const { addActivity } = require("../controllers/activities");
+const { addActivity, getActivities } = require("../controllers/activities");
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 router.get("/countries", getCountries);
 router.get("/countries/:id", countryById);
 router.post("/activity", addActivity);
+router.get("/activity", getActivities);
 
 module.exports = router;

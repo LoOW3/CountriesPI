@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('./img/fondoHome3.png');
+    height: 2000px;
+
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(30, 62, 104);
+    margin-top: 4vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 37vw;
+    background-color: rgb(30, 62, 104);
+    border-radius: 15px;
+}
+.details{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 20px; 
+    padding-top: 15px;
+}
+.infoR{
+    margin-top: 30px;
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    border-radius: 10px;
+}
+.notFound{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 20px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.h4{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 30px;
+    font-weight:normal; 
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-top: 5px;
+}
+.h5{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 30px;
+    font-weight:normal; 
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+.name{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 40px; 
+    padding-bottom: 15px;
+    color: white;
+}
+.activityContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.activityName{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 25px; 
+}
+.activityFlex{
+    padding-bottom: 15px;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caracteristicas div{
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 18px; 
+    margin-right: .3vw;
+}
+.button{
+    color: rgb(245, 245, 245);
+    font-size: 12px;
+    padding: .7vh;
+    margin: 20px;
+    border: none ;
+    background-color: rgb(43, 77, 149);
+    border: 1px solid rgb(43, 77, 149);
+    border-radius: 2px;
+    transition: .3s;
+    cursor: pointer;
+}
+.button:hover{
+
+    background-color: rgb(30, 59, 121);
+    border: 1px solid rgb(30, 59, 121);
+    
+}

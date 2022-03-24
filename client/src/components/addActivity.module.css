@@ -1,0 +1,104 @@
+.container{
+    color: black;
+    display: flex;
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url('./img/fondoActivity.jpg');
+}
+.title{
+    color: white;
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 35px; 
+    margin: 15px 0px 0px 75px;
+}
+.info{
+
+    margin-top: 150px;
+    margin-left: 750px;
+    font-family: 'Enriqueta', arial, serif; 
+    line-height: 1.25; 
+    font-size: 18px; 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25vw;
+    height: 70vh;
+    background-color: rgb(30, 62, 104);
+    border-radius: 10px;
+}
+.selects{
+    display: flex; 
+    margin: 30px 15px 0px 30px;
+
+}
+.selects div{
+    margin-right: 1vw;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+.button{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: .7vh;
+    margin: 20px;
+    margin-top: 140px;
+    border: none ;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+    transition: .3s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(43, 77, 149);
+    border: 1px solid rgb(43, 77, 149);
+    color: white;
+    
+}
+.infoContainer{
+    background-color: rgb(235, 235, 235);
+
+    margin: 30px auto;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.countrysContainer{
+    position: absolute;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-left: 170px;
+}
+.countryNames{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.countryNames button{
+    margin-left: 20px;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    color:white;
+    cursor: pointer;
+    background-color: red;
+}
+.countryNames button:hover{
+    background-color: rgb(185, 6, 6);
+}
+.selects select{
+    height: 30px;
+    cursor: pointer;
+}
+.selects input{
+    height: 23px;
+}
